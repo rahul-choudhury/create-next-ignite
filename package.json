@@ -1,16 +1,19 @@
 {
-  "name": "create-next-ignite",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "commonjs",
-  "bin": {
-    "create-next-ignite": "./bin/create-next-ignite.js"
-  }
+    "name": "create-next-ignite",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "start": "node src/index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "files": [
+        "src"
+    ],
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "type": "module",
+    "bin": {
+        "create-next-ignite": "./src/index.js"
+    }
 }
